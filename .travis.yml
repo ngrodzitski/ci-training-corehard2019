@@ -53,7 +53,7 @@ matrix:
         apt:
           sources:
             - ubuntu-toolchain-r-test
-            - llvm-toolchain-trusty-6.0
+            - clang-6.0
           packages:
             - clang-6.0
       env:
@@ -63,7 +63,7 @@ matrix:
         apt:
           sources:
             - ubuntu-toolchain-r-test
-            - llvm-toolchain-trusty-7
+            - clang-7
           packages:
             - clang-7
       env:
